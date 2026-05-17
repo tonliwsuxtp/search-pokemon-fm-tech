@@ -31,7 +31,6 @@ export default async function PokemonGrid({
     const reason = type ? `type "${type}"` : `"${search}"`;
     return (
       <div className="flex flex-col items-center justify-center py-24 text-center">
-        <p className="text-5xl">😕</p>
         <p className="mt-4 text-lg font-medium text-gray-600 dark:text-gray-400">
           No Pokémon found for {reason}
         </p>
