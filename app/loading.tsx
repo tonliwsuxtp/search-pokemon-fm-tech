@@ -1,4 +1,4 @@
-import { PokemonGridSkeleton } from "@/app/components/PokemonCardSkeleton";
+import { PokemonGridSkeleton } from "@/components/PokemonCardSkeleton";
 
 export default function Loading() {
   return (

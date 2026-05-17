@@ -1,9 +1,9 @@
 import { Suspense } from "react";
-import SearchBar from "@/app/components/SearchBar";
-import TypeFilter from "@/app/components/TypeFilter";
-import PokemonGrid from "@/app/components/PokemonGrid";
-import Pagination from "@/app/components/Pagination";
-import { PokemonGridSkeleton } from "@/app/components/PokemonCardSkeleton";
+import SearchBar from "@/components/SearchBar";
+import TypeFilter from "@/components/TypeFilter";
+import PokemonGrid from "@/components/PokemonGrid";
+import Pagination from "@/components/Pagination";
+import { PokemonGridSkeleton } from "@/components/PokemonCardSkeleton";
 import {
   getPokemonCount,
   getPokemonCountByType,
@@ -15,7 +15,7 @@ import {
   PAGE_SIZE,
 } from "@/app/lib/utils";
 import type { SortOrder } from "@/app/lib/utils";
-import SortSelect from "@/app/components/SortSelect";
+import SortSelect from "@/components/SortSelect";
 
 interface HomePageProps {
   searchParams: Promise<{
